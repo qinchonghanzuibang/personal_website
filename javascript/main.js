@@ -16,3 +16,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+window.addEventListener('scroll', function() {
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav a');
+
+    sections.forEach((section, index) => {
+        const sectionTop = section.offsetTop -95;
+        const sectionHeight = section.offsetHeight;
+        const scrollPosition = window.scrollY;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            navLinks.forEach(link => link.classList.remove('active'));
+            navLinks[index].classList.add('active');
+        }
+    });
+});
