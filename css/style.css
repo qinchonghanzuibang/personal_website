@@ -100,6 +100,7 @@ footer {
 .social-icon img {
     width: 30px; /* Adjust the size of the icons */
     height: 30px;
+    filter: invert(1);
 }
 
 
