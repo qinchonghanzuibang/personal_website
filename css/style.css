@@ -21,7 +21,7 @@ body {
 #intro .line2 {
     font-size: 1em;
     margin-left: 703px;
-    color: rgb(193, 198, 198);
+    color: rgb(200, 206, 206);
 }
 
 nav {
@@ -29,14 +29,20 @@ nav {
     font-size: 1em;
     flex-direction: column;
     margin-left: 695px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: #e4e4e4;
     padding: 10px;
+    transition: font-size 0.3s, font-weight 0.3s;
+}
+
+nav a:hover {
+    font-size: 1.6em; /* Increase the font size on hover */
+    font-weight: bold; /* Make the font bold on hover */
 }
 
 main {
@@ -72,4 +78,5 @@ footer {
     width: 50%;
     padding: 20px;
     overflow-y: auto; /* Enable scrolling on the right side */
+    margin-top: 50px;
 }

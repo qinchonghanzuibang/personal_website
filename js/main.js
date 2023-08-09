@@ -7,7 +7,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
         switch (targetID) {
             case '#about':
-                destination = 200; // Set the destination for the "About" section
+                destination = 0; // Set the destination for the "About" section
                 break;
             case '#experience':
                 destination = 600; // Set the destination for the "Experience" section
