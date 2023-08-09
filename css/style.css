@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #2b2b2b;
@@ -7,18 +7,21 @@ body {
 }
 
 #name {
+    font-family: 'Pacifico', cursive;
     font-weight: bold;
-    font-size: 3em;
+    font-size: 3.5em;
     margin-top: 100px;
     margin-left: 700px;
 }
 
 #intro .line1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
     margin-left: 702px;
 }
 
 #intro .line2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
     margin-left: 703px;
     color: rgb(200, 206, 206);
@@ -30,6 +33,7 @@ nav {
     flex-direction: column;
     margin-left: 695px;
     margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -62,6 +66,7 @@ footer {
     position: fixed; /* Fix the position of the footer */
     bottom: 0; /* Align the footer at the bottom of the page */
     font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #container {
@@ -84,3 +89,16 @@ footer {
     overflow-y: auto; /* Enable scrolling on the right side */
     margin-top: 50px;
 }
+
+.highlight {
+    font-weight: bold; /* Make the text bold */
+    color: white;
+}
+
+#about p {
+    color: rgb(200, 206, 206);
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
