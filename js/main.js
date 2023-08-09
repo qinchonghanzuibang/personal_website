@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 destination = 0; // Set the destination for the "About" section
                 break;
             case '#experience':
-                destination = 600; // Set the destination for the "Experience" section
+                destination = 480; // Set the destination for the "Experience" section
                 break;
             case '#projects':
                 destination = 2000; // Set the destination for the "Projects" section
@@ -25,5 +25,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
-
-// Existing code for cursor effect
