@@ -58,6 +58,10 @@ section {
 footer {
     padding: 10px;
     text-align: center;
+    width: 100%; /* Set the width to 100% */
+    position: fixed; /* Fix the position of the footer */
+    bottom: 0; /* Align the footer at the bottom of the page */
+    font-size: 12px;
 }
 
 #container {
