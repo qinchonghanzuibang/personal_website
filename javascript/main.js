@@ -13,7 +13,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 destination = 480; // Set the destination for the "Experience" section
                 break;
             case '#projects':
-                destination = 2000; // Set the destination for the "Projects" section
+                destination = 1710; // Set the destination for the "Projects" section
                 break;
             default:
                 destination = 0;

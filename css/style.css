@@ -203,3 +203,49 @@ footer {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+#projects h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 30px; /* Space between projects */
+}
+
+.preview img {
+    width: 150px; /* Adjust the preview image size */
+    height: auto;
+    margin-right: 20px; /* Space between the image and details */
+    margin-top: 10px;
+}
+
+.details h3 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.details p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 350px;
+    word-wrap: break-word;
+    color: rgb(200, 206, 206);
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -6px;
+}
+
+.keywords span {
+    background-color: #ebdbb2; /* Background color for keywords */
+    padding: 5px 10px; /* Padding around keywords */
+    margin: 5px; /* Space between keywords */
+    border-radius: 5px; /* Rounded corners for keywords */
+    font-size: 14px;
+    color: rgb(7, 9, 9);
+}
