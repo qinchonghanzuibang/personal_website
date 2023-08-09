@@ -57,6 +57,7 @@ main {
 
 section {
     padding: 20px;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -225,6 +226,7 @@ footer {
     font-size: 24px;
     margin: 0;
     color: white;
+    margin-top: 5px;
 }
 
 .details p {

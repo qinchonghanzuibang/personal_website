@@ -10,10 +10,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 destination = 0; // Set the destination for the "About" section
                 break;
             case '#experience':
-                destination = 480; // Set the destination for the "Experience" section
+                destination = 540; // Set the destination for the "Experience" section
                 break;
             case '#projects':
-                destination = 1710; // Set the destination for the "Projects" section
+                destination = 1830; // Set the destination for the "Projects" section
                 break;
             default:
                 destination = 0;
