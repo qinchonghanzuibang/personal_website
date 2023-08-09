@@ -55,8 +55,6 @@ main {
 
 section {
     padding: 20px;
-    min-height: 400px;
-    /* Adjust as needed */
 }
 
 footer {
@@ -99,6 +97,8 @@ footer {
     color: rgb(200, 206, 206);
     font-size: 18px;
     line-height: 1.7;
+    max-width: 500px;
+    word-wrap: break-word;
 }
 
 
