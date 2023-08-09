@@ -8,26 +8,30 @@ body {
 
 #name {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3em;
     margin-top: 100px;
-    margin-left: 600px;
+    margin-left: 700px;
 }
 
 #intro .line1 {
     font-size: 1.2em;
-    margin-left: 602px;
+    margin-left: 702px;
 }
 
 #intro .line2 {
     font-size: 1em;
-    margin-left: 602px;
+    margin-left: 703px;
     color: rgb(193, 198, 198);
 }
 
 nav {
     display: flex;
+    font-size: 1em;
     flex-direction: column;
+    margin-left: 695px;
+    margin-top: 30px;
 }
+
 
 nav a {
     text-decoration: none;
@@ -41,12 +45,31 @@ main {
 
 section {
     padding: 20px;
-    min-height: 400px; /* Adjust as needed */
+    min-height: 400px;
+    /* Adjust as needed */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+#container {
+    display: flex;
+}
+
+#left-side {
+    position: fixed; /* Fix the position of the left side */
+    width: 50%;
+    height: 100%;
+    background-color: #2b2b2b;
+    padding: 20px;
+    overflow-y: hidden; /* Disable scrolling on the left side */
+}
+
+#right-side {
+    margin-left: 50%; /* Set the left margin to match the width of the left side */
+    width: 50%;
+    padding: 20px;
+    overflow-y: auto; /* Enable scrolling on the right side */
 }
