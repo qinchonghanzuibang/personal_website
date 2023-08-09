@@ -3,25 +3,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
 
         const targetID = this.getAttribute('href');
-        let destination;
+        const destinationElement = document.querySelector(targetID);
 
-        switch (targetID) {
-            case '#about':
-                destination = 0; // Set the destination for the "About" section
-                break;
-            case '#experience':
-                destination = 540; // Set the destination for the "Experience" section
-                break;
-            case '#projects':
-                destination = 1830; // Set the destination for the "Projects" section
-                break;
-            default:
-                destination = 0;
+        if (destinationElement) {
+            const offset = 95; // You can change this value to adjust the destination
+            const destination = destinationElement.offsetTop - offset;
+
+            window.scrollTo({
+                top: destination,
+                behavior: 'smooth'
+            });
         }
-
-        window.scrollTo({
-            top: destination,
-            behavior: 'smooth'
-        });
     });
 });

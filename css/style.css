@@ -47,7 +47,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: 1.6em; /* Increase the font size on hover */
+    font-size: 1.8em; /* Increase the font size on hover */
     font-weight: bold; /* Make the font bold on hover */
 }
 
@@ -125,6 +125,13 @@ footer {
     word-wrap: break-word;
 }
 
+#about .underline {
+    width: 500px; /* Adjust the length of the line */
+    height: 2px;
+    background-color: #e4e4e4;
+    margin-right: auto;
+}
+
 #about h2 {
     font-size: 30px;
     margin-top: 32px;
@@ -135,6 +142,7 @@ footer {
 #experience .timeline {
     position: relative;
     padding-left: -10px; /* Space for the timeline */
+    margin-top: 20px;
 }
 
 #experience .entry {
@@ -200,6 +208,13 @@ footer {
     word-wrap: break-word;
 }
 
+#experience .underline {
+    width: 500px; /* Adjust the length of the line */
+    height: 2px;
+    background-color: #e4e4e4;
+    margin-right: auto;
+}
+
 #projects h2 {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -209,11 +224,18 @@ footer {
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .project {
     display: flex;
     margin-bottom: 30px; /* Space between projects */
     flex-direction: column;
+}
+#projects .underline {
+    width: 500px; /* Adjust the length of the line */
+    height: 2px;
+    background-color: #e4e4e4;
+    margin-right: auto;
 }
 
 .preview img {
@@ -228,7 +250,7 @@ footer {
     font-size: 24px;
     margin: 0;
     color: white;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .details p {
@@ -253,4 +275,37 @@ footer {
     border-radius: 5px; /* Rounded corners for keywords */
     font-size: 14px;
     color: rgb(7, 9, 9);
+}
+
+
+
+#courses h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+#courses .underline {
+    width: 500px; /* Adjust the length of the line */
+    height: 2px;
+    background-color: #e4e4e4;
+    margin-right: auto;
+}
+
+#courses .semester h3 {
+    font-size: 24px;
+    margin-top: 20px; /* Adjust as needed */
+    color: #ebdbb2; /* Adjust the color as needed */
+    margin-bottom: -10px;
+}
+
+#courses .semester ul {
+    list-style-type: disc; /* Creates a dot on the left */
+    padding-left: 20px; /* Adjust as needed */
+}
+
+#courses .semester ul li {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgb(200, 206, 206);
 }
