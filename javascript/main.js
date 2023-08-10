@@ -6,9 +6,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const destinationElement = targetID === '#about' ? null : document.querySelector(targetID);
 
         if (destinationElement) {
-            const nameElement = document.getElementById('name'); // Replace with the correct ID or class for the "Jonathan Qin" element
-            const additionalOffset = 26; // You can adjust this value to change how much higher the scroll position is
-            const offset = nameElement ? nameElement.offsetTop - additionalOffset : 0; // Calculate the offset based on the "Jonathan Qin" element and adjust higher
+            const viewportHeight = window.innerHeight;
+            const offsetPercentage = 7.5; // You can adjust this percentage to change the offset
+            const offset = (viewportHeight * offsetPercentage) / 100;
             const destination = destinationElement.offsetTop - offset;
 
             window.scrollTo({
