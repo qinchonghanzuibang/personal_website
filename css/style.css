@@ -43,7 +43,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #e4e4e4;
-    padding: 10px;
+    padding: 0.625em;
     transition: font-size 0.3s, font-weight 0.3s;
 }
 
@@ -61,16 +61,16 @@ nav a.active {
 
 
 main {
-    padding: 20px;
+    padding: 1.25em;
 }
 
 section {
-    padding: 20px;
+    padding: 1.25em;
     margin-bottom: 60px;
 }
 
 footer {
-    padding: 10px;
+    padding: 0.625em;
     text-align: center;
     width: 100%; /* Set the width to 100% */
     bottom: 0; /* Align the footer at the bottom of the page */
@@ -90,7 +90,7 @@ footer {
     width: 50%;
     height: 100%;
     background-color: #2b2b2b;
-    padding: 20px;
+    padding: 1.25em;
     overflow-y: hidden; /* Disable scrolling on the left side */
 }
 
@@ -107,8 +107,8 @@ footer {
 }
 
 .social-icon img {
-    width: 20px; /* Adjust the size of the icons */
-    height: 20px;
+    width: 1.25em; /* Adjust the size of the icons */
+    height: 1.25em;
     filter: invert(1);
 }
 
@@ -116,7 +116,7 @@ footer {
 #right-side {
     margin-left: 50%; /* Set the left margin to match the width of the left side */
     width: 50%;
-    padding: 20px;
+    padding: 1.25em;
     overflow-y: auto; /* Enable scrolling on the right side */
     margin-top: 2%;
     height: auto;
@@ -137,7 +137,7 @@ footer {
 
 #about .underline {
     width: 75%; /* Adjust the length of the line */
-    height: 2px;
+    height: 0.125em;
     background-color: #e4e4e4;
     margin-right: auto;
 }
@@ -151,8 +151,8 @@ footer {
 
 #experience .timeline {
     position: relative;
-    padding-left: -10px; /* Space for the timeline */
-    margin-top: 20px;
+    padding-left: -0.625em; /* Space for the timeline */
+    margin-top: 1.25em;
 }
 
 #experience .entry {
@@ -165,8 +165,8 @@ footer {
     position: absolute;
     left: -25px;
     top: 5px;
-    width: 10px;
-    height: 10px;
+    width: 0.625em;
+    height: 0.625em;
     background-color: #ebdbb2; /* Color of the timeline dot */
     border-radius: 50%;
 }
@@ -174,14 +174,14 @@ footer {
 #experience .date {
     font-weight: bold;
     color: #ebdbb2; /* Color of the date text */
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 #experience .content h3 {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #fff; /* Color of the job title */
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
 }
 
 .link-icon {
@@ -197,7 +197,7 @@ footer {
 
 #experience .content h4 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em;
     font-size: 1.125em;
     color: white;
 }
@@ -207,7 +207,7 @@ footer {
 }
 
 #experience h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -220,30 +220,30 @@ footer {
 
 #experience .underline {
     width: 75%; /* Adjust the length of the line */
-    height: 2px;
+    height: 0.125em;
     background-color: #e4e4e4;
     margin-right: auto;
 }
 
 #projects h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #projects h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
 .project {
     display: flex;
-    margin-bottom: 30px; /* Space between projects */
+    margin-bottom: 1.875em; /* Space between projects */
     flex-direction: column;
 }
 #projects .underline {
     width: 75%; /* Adjust the length of the line */
-    height: 2px;
+    height: 0.125em;
     background-color: #e4e4e4;
     margin-right: auto;
 }
@@ -251,16 +251,16 @@ footer {
 .preview img {
     width: 75%; /* Adjust the preview image size */
     height: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: -2px;
+    margin-top: 0.625em;
+    margin-bottom: 0.625em;
+    margin-left: -0.125em;
 }
 
 .details h3 {
     font-size: 24px;
     margin: 0;
     color: white;
-    margin-top: 20px;
+    margin-top: 1.25em;
 }
 
 .details p {
@@ -269,7 +269,7 @@ footer {
     max-width: 75%;
     word-wrap: break-word;
     color: rgb(200, 206, 206);
-    margin-bottom: 2px;
+    margin-bottom: 0.125em;
 }
 
 .keywords {
@@ -280,7 +280,7 @@ footer {
 
 .keywords span {
     background-color: #ebdbb2; /* Background color for keywords */
-    padding: 5px 10px; /* Padding around keywords */
+    padding: 5px 0.625em; /* Padding around keywords */
     margin: 5px; /* Space between keywords */
     border-radius: 5px; /* Rounded corners for keywords */
     font-size: 14px;
@@ -290,28 +290,28 @@ footer {
 
 
 #courses h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-bottom: 10px; /* Adjust as needed */
+    margin-bottom: 0.625em; /* Adjust as needed */
 }
 
 #courses .underline {
     width: 75%; /* Adjust the length of the line */
-    height: 2px;
+    height: 0.125em;
     background-color: #e4e4e4;
     margin-right: auto;
 }
 
 #courses .semester h3 {
     font-size: 24px;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 1.25em; /* Adjust as needed */
     color: #ebdbb2; /* Adjust the color as needed */
-    margin-bottom: -10px;
+    margin-bottom: -0.625em;
 }
 
 #courses .semester ul {
     list-style-type: disc; /* Creates a dot on the left */
-    padding-left: 20px; /* Adjust as needed */
+    padding-left: 1.25em; /* Adjust as needed */
 }
 
 #courses .semester ul li {
