@@ -13,20 +13,20 @@ body {
     font-weight: bold;
     font-size: 3.5em;
     margin-top: 8.0515297906602%;
-    margin-left: 25.88822355%;
+    margin-left: 30.88822355%;
     color: white;
 }
 
 #intro .line1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
-    margin-left: 25.88822355%;
+    margin-left: 30.88822355%;
 }
 
 #intro .line2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
-    margin-left: 25.88822355%;
+    margin-left: 30.88822355%;
     color: rgb(200, 206, 206);
 }
 
@@ -34,7 +34,7 @@ nav {
     display: flex;
     font-size: 1em;
     flex-direction: column;
-    margin-left: 25.089820%;
+    margin-left: 30.089820%;
     margin-top: 4.0257649%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -97,7 +97,7 @@ footer {
 #social-media {
     position: absolute; /* Position the icons at the bottom left corner */
     bottom: 8.0515298%; /* Adjust the distance from the bottom */
-    margin-left: 24.1%;
+    margin-left: 29.1%;
     text-decoration: none;
 }
 
