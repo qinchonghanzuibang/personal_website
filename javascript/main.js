@@ -1,5 +1,3 @@
-const offsetPercentage = 7.6505647; // You can adjust this value to change the activation point
-
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -8,7 +6,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         const destinationElement = targetID === '#about' ? null : document.querySelector(targetID);
 
         if (destinationElement) {
-            const offset = (window.innerHeight * offsetPercentage) / 100;
+            const nameElement = document.getElementById('name'); // Replace with the correct ID or class for the "Jonathan Qin" element
+            const additionalOffset = 26; // You can adjust this value to change how much higher the scroll position is
+            const offset = nameElement ? nameElement.offsetTop - additionalOffset : 0; // Calculate the offset based on the "Jonathan Qin" element and adjust higher
             const destination = destinationElement.offsetTop - offset;
 
             window.scrollTo({
