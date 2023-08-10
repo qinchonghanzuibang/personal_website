@@ -12,21 +12,21 @@ body {
     font-family: 'Pacifico', cursive;
     font-weight: bold;
     font-size: 3.5em;
-    margin-top: 100px;
-    margin-left: 700px;
+    margin-top: 8.0515297906602%;
+    margin-left: 25.88822355%;
     color: white;
 }
 
 #intro .line1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.2em;
-    margin-left: 700px;
+    margin-left: 25.88822355%;
 }
 
 #intro .line2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1em;
-    margin-left: 700px;
+    margin-left: 25.88822355%;
     color: rgb(200, 206, 206);
 }
 
@@ -34,8 +34,8 @@ nav {
     display: flex;
     font-size: 1em;
     flex-direction: column;
-    margin-left: 690px;
-    margin-top: 50px;
+    margin-left: 25.089820%;
+    margin-top: 4.0257649%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -96,8 +96,8 @@ footer {
 
 #social-media {
     position: absolute; /* Position the icons at the bottom left corner */
-    bottom: 100px; /* Adjust the distance from the bottom */
-    margin-left: 700px;
+    bottom: 8.0515298%; /* Adjust the distance from the bottom */
+    margin-left: 24.1%;
     text-decoration: none;
 }
 
@@ -107,8 +107,8 @@ footer {
 }
 
 .social-icon img {
-    width: 30px; /* Adjust the size of the icons */
-    height: 30px;
+    width: 20px; /* Adjust the size of the icons */
+    height: 20px;
     filter: invert(1);
 }
 
@@ -118,7 +118,7 @@ footer {
     width: 50%;
     padding: 20px;
     overflow-y: auto; /* Enable scrolling on the right side */
-    margin-top: 50px;
+    margin-top: 2%;
     height: auto;
 }
 
@@ -129,22 +129,22 @@ footer {
 
 #about p {
     color: rgb(200, 206, 206);
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 1.7;
-    max-width: 500px;
+    max-width: 75%;
     word-wrap: break-word;
 }
 
 #about .underline {
-    width: 500px; /* Adjust the length of the line */
+    width: 75%; /* Adjust the length of the line */
     height: 2px;
     background-color: #e4e4e4;
     margin-right: auto;
 }
 
 #about h2 {
-    font-size: 30px;
-    margin-top: 32px;
+    font-size: 1.875em;
+    margin-top: 2.57648953%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -192,13 +192,13 @@ footer {
 .link-icon h3::after {
     content: '\1F517'; /* Link icon (Unicode character) */
     margin-left: 7px; /* Space between text and icon */
-    font-size: 15px;
+    font-size: 1em;
 }
 
 #experience .content h4 {
     margin: 0;
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.125em;
     color: white;
 }
 
@@ -214,12 +214,12 @@ footer {
 #experience p {
     color: rgb(200, 206, 206);
     line-height: 1.7;
-    max-width: 500px;
+    max-width: 75%;
     word-wrap: break-word;
 }
 
 #experience .underline {
-    width: 500px; /* Adjust the length of the line */
+    width: 75%; /* Adjust the length of the line */
     height: 2px;
     background-color: #e4e4e4;
     margin-right: auto;
@@ -242,14 +242,14 @@ footer {
     flex-direction: column;
 }
 #projects .underline {
-    width: 500px; /* Adjust the length of the line */
+    width: 75%; /* Adjust the length of the line */
     height: 2px;
     background-color: #e4e4e4;
     margin-right: auto;
 }
 
 .preview img {
-    width: 500px; /* Adjust the preview image size */
+    width: 75%; /* Adjust the preview image size */
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -264,9 +264,9 @@ footer {
 }
 
 .details p {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 1.7;
-    max-width: 500px;
+    max-width: 75%;
     word-wrap: break-word;
     color: rgb(200, 206, 206);
     margin-bottom: 2px;
@@ -296,7 +296,7 @@ footer {
 }
 
 #courses .underline {
-    width: 500px; /* Adjust the length of the line */
+    width: 75%; /* Adjust the length of the line */
     height: 2px;
     background-color: #e4e4e4;
     margin-right: auto;
@@ -315,7 +315,7 @@ footer {
 }
 
 #courses .semester ul li {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 1.7;
     color: rgb(200, 206, 206);
 }
