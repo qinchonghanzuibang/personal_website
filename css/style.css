@@ -319,3 +319,7 @@ footer {
     line-height: 1.7;
     color: rgb(200, 206, 206);
 }
+
+#courses .semester ul li{
+    width: 75%; /* Adjust the length of the line */
+}
